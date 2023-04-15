@@ -9,8 +9,8 @@
         ""
     ],
 
-    "repository": "https://github.com/Ps705112/autodeletefilter",
-    "success_url": "https://telegram.dog/pankajpandiyar",
+    "repository": "https://github.com/Manishgupta64047/Testing-",
+    "success_url": "https://telegram.dog/sigma_male_007",
     "env": {
         "WEBHOOK": {
             "description": "No need to change this field!",
