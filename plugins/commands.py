@@ -217,7 +217,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Developer", url=f"https://t.me/sigma_male_007")
+                    InlineKeyboardButton("BotList", url=f"https://t.me/mdisk_bots")
                 ]
             ]
         ),
@@ -246,7 +246,7 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Bots Updates", url="https://t.me/mdisk_bots")
+                    InlineKeyboardButton("Channel", url="https://t.me/z_harbour")
 
                 ]
 
@@ -271,7 +271,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "24×7 Movies", url="https://t.me/z_harbour_files")
+                        "Movies", url="https://t.me/z_harbour_files")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
