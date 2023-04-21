@@ -4,7 +4,7 @@ import time
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5843311344:AAF6Waxg_DhF1tJfsyYNJ5_odUWYYh1xMNc")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6200816752:AAEZhMLZbEgk7chIoL7WcyhVQObLlWXB2O0")
 
 
     # Get from my.telegram.org (or @UseTGXBot)
@@ -24,14 +24,14 @@ class Config(object):
 
 
     # ID of users that can use the bot commands
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "966029924").split())
+    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "5259051520").split())
 
     TIME = os.environ.get("TIME")
 
     # To save user details (Usefull for getting userinfo and total user counts)
     # May reduce filter capacity :(
     # Give yes or no
-    SAVE_USER = os.environ.get("SAVE_USER", "no").lower()
+    SAVE_USER = os.environ.get("SAVE_USER", "yes").lower()
 
 
     # Go to https://dashboard.heroku.com/account, scroll down and press Reveal API
@@ -46,7 +46,7 @@ class Config(object):
     CONNECT_COMMAND = os.environ.get("CONNECT_COMMANDD", "addgroup")
     DISCONNECT_COMMAND = os.environ.get("DISCONNECT_COMMANDD", "disconnect")
 
-    ADMINS = os.environ.get("ADMINS", "966029924")
+    ADMINS = os.environ.get("ADMINS", "5259051520")
 
     # To record start time of bot
     BOT_START_TIME = time.time()
